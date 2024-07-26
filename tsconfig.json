@@ -1,26 +1,30 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es5", // Target JavaScript version
     "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
+      "dom", // Include DOM library for browser environments
+      "dom.iterable", // Include iterable DOM library
+      "esnext" // Include the latest ECMAScript features
     ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "allowJs": true, // Allow JavaScript files
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "esModuleInterop": true, // Enable interoperability between CommonJS and ES modules
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules without default exports
+    "strict": true, // Enable all strict type-checking options
+    "forceConsistentCasingInFileNames": true, // Ensure consistent file naming
+    "noFallthroughCasesInSwitch": true, // Report errors for fallthrough cases in switch statements
+    "module": "esnext", // Module code generation
+    "moduleResolution": "node", // Use Node.js module resolution strategy
+    "resolveJsonModule": true, // Allow importing of JSON files
+    "isolatedModules": true, // Ensure that each file can be safely transpiled independently
+    "noEmit": true, // Do not emit output files
+    "jsx": "react-jsx" // Enable JSX support in React
   },
   "include": [
-    "src"
+    "src" // Include all files in the 'src' directory
+  ],
+  "exclude": [
+    "node_modules", // Exclude 'node_modules' directory
+    "build" // Exclude 'build' directory if you have one
   ]
 }
