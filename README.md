@@ -1,5 +1,3 @@
-![Add Expense Form](../)
-
 **Expense List View:**
 
 ![Main View](./src/Assets/Screenshot%202024-07-26%20113317.png)
