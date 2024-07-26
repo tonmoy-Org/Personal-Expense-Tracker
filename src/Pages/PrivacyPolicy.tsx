@@ -8,7 +8,7 @@ const PrivacyPolicy: React.FC = () => {
                 Privacy Policy
             </Typography>
             <Typography variant="body1" paragraph>
-                <strong>Effective Date:</strong> [Insert Date]
+                <strong>Effective Date:</strong> [7-26-2024]
             </Typography>
             <Typography variant="body1" paragraph>
                 <strong>1. Introduction</strong>
