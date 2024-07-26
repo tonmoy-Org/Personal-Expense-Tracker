@@ -13,7 +13,7 @@ const BannerImage = styled('img')({
 
 const Banner: React.FC = () => {
     return (
-        <Box component={Paper} sx={{ boxShadow: 3, p: 10 }}>
+        <Box component={Paper} sx={{ boxShadow: 3, p: { xs: 2, md: 10 } }}>
             <Container>
                 <Grid container spacing={4} alignItems="center">
                     <Grid item xs={12} md={6}>
